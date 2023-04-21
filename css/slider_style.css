@@ -1,0 +1,86 @@
+html, body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.site-wrapper {
+    min-width: 940px;
+    background-color: #849d8f;
+    background-image: url('../img/Мороженко1.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    min-height: 100vh;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-header {
+    height: 100px;
+    background-color: bisque;
+    opacity: 0.3;
+}
+
+.slider {
+    position: relative;
+    padding-top: 321px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.slider-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slide-title {
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom:  27px;
+}
+
+.button {
+    /*стили из макета как должна выглядить тут все понятно*/
+}
+
+.slide {
+    display: none;
+}
+
+.slide-current {
+    display: block;
+}
+
+.slider-controls {
+    position: absolute;
+    bottom: 63px;
+    left: 0;
+    z-index: 20;
+    display: flex;
+    width: 67px;
+    justify-content: space-between;
+}
+
+.slider-controls button {
+    padding: 0;
+    width: 17px;
+    height: 17px;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider-controls .current {
+    background-color: #FFF;
+}
